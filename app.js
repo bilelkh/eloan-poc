@@ -23,11 +23,11 @@ const decrypt = (data) => {
     return data;
   }
 };
-const msgToEncrypt = encrypt("bilel");
-const msgToDecrypt = decrypt(msgToEncrypt);
+// const msgToEncrypt = encrypt("malek");
+const msgToDecrypt = decrypt("6ed4f72b6e8d2d59c6e278249d854663");
 
-console.log("msgToEncrypt", msgToEncrypt);
 console.log("msgToDecrypt", msgToDecrypt);
+// console.log("msgToDecrypt", msgToDecrypt);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
